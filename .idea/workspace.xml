@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="430abda9-8529-43e9-aa26-f83cf2fb5448" name="Changes" comment="Adding Gradle" />
+    <list default="true" id="430abda9-8529-43e9-aa26-f83cf2fb5448" name="Changes" comment="Adding Gradle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/HandleAClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/HandleAClientTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +38,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ChatApp" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ChatApp" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -62,7 +73,20 @@
       <recent name="C:\Users\KhoaI5\IdeaProjects\ChatApp\src\main\java\com\khoalt" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="ClientApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.khoalt.ClientApp" />
+      <module name="ChatApp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.khoalt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.khoalt.Main" />
       <module name="ChatApp.main" />
@@ -76,8 +100,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.khoalt.Server" />
+      <module name="ChatApp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.khoalt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApp [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientApp" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Gradle.ChatApp [dependencies]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -112,7 +173,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667187541326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Gradle">
+      <created>1667187663644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187663644</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding Gradle">
+      <created>1667187700052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187700052</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding Gradle">
+      <created>1667187743131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187743131</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding Gradle">
+      <created>1667187755411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187755411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding Gradle">
+      <created>1667187762763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187762763</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding Gradle">
+      <created>1667187827567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667187827567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

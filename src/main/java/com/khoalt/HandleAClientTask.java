@@ -1,5 +1,7 @@
 package com.khoalt;
 
+import com.github.javafaker.Faker;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -13,15 +15,17 @@ public class HandleAClientTask implements Runnable {
     private BufferedReader serverReader;
     private BufferedWriter serverWriter;
     String taskClientName;
+    Faker faker = new Faker();
     private static List<HandleAClientTask> allTasks = Collections.synchronizedList(new ArrayList<>());
     public HandleAClientTask(Socket socket) {
         try {
             this.socket = socket;
             this.serverReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             this.serverWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            this.taskClientName = serverReader.readLine() == null ? "random" : serverReader.readLine(); //TODO: gen random username, doi username
+            this.taskClientName = serverReader.readLine();//faker.name().fullName()
             allTasks.add(this);
         } catch (IOException ex) {
+            System.err.println("Cannot create client handler");
             ex.printStackTrace();
             closeSocket();
         }
@@ -31,14 +35,15 @@ public class HandleAClientTask implements Runnable {
         while (socket.isConnected()) {
             try {
                 String messageFromAClient = serverReader.readLine();
-                broadcastToAll(messageFromAClient);
+                displayMessage(messageFromAClient);
             } catch (Exception ex) {
+                System.err.println("Cannot send or receive message");
                 ex.printStackTrace();
                 closeSocket();
             }
         }
     }
-    public void broadcastToAll(String message) {
+    public void displayMessage(String message) {
         for (HandleAClientTask task : allTasks) {
             try {
                 if (!task.taskClientName.equals(taskClientName)) {

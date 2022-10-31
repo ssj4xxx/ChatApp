@@ -23,11 +23,27 @@ public class Server implements Runnable {
         } catch (Exception ex) {
             System.out.println("Cannot run server");
             ex.printStackTrace();
+            closeServerSocket();
         }
     }
-    public static void main(String[] args) throws IOException {
-        var server = new Thread(new Server(1234));
-        server.start();
-        System.out.println("Server starts");
+    public void closeServerSocket() {
+        try {
+            if (!serverSocket.isClosed()) {
+                serverSocket.close();
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+    }
+    public static void main(String[] args) {
+        try {
+            var server = new Thread(new Server(1234));
+            server.start();
+            System.out.println("Server starts");
+        } catch (Exception ex) {
+            System.err.println("Failed to create chat server");
+            ex.printStackTrace();
+        }
     }
 }
