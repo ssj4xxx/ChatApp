@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="430abda9-8529-43e9-aa26-f83cf2fb5448" name="Changes" comment="Adding Gradle">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/HandleAClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/HandleAClientTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khoalt/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khoalt/Server.java" afterDir="false" />
-    </list>
+    <list default="true" id="430abda9-8529-43e9-aa26-f83cf2fb5448" name="Changes" comment="Adding Gradle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +57,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/KhoaI5/IdeaProjects/ChatApp/src/main/java/com/khoalt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KhoaI5/IdeaProjects/ChatApp/src/main/java/com/khoalt&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KhoaI5\IdeaProjects\ChatApp\src\main\java\com\khoalt" />
@@ -215,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667187827567</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Gradle">
+      <created>1667197613538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667197613538</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding Gradle">
+      <created>1667198025367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667198025367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
